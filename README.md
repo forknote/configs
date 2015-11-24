@@ -1,3 +1,3 @@
-# Public configurations of cryptocurrencies, using forknote
-Submit your configuration here, if your coin is public
-http://github.com/forknote/config/
+# Configurations of blockchains
+
+Submit your configuration here to see it in the next Forknote build
