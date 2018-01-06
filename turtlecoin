@@ -1,0 +1,55 @@
+{
+    "base_coin": {
+        "name": "bytecoin",
+        "git": "https://github.com/amjuarez/bytecoin.git"
+    },
+    "core": {
+        "SEED_NODES": [
+            "104.236.227.176:11897",
+            "104.236.55.84:11897",
+      	    "163.172.147.52:11897",
+      	    "51.15.138.214:11897",
+      	    "51.15.137.77:11897"
+        ],
+        "EMISSION_SPEED_FACTOR": 25,
+        "DIFFICULTY_TARGET": 30,
+        "CRYPTONOTE_DISPLAY_DECIMAL_POINT": 2,
+        "MONEY_SUPPLY": "100000000000000",
+        "GENESIS_BLOCK_REWARD": "0",
+        "DEFAULT_DUST_THRESHOLD": 10,
+        "MINIMUM_FEE": 10,
+        "CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW": 40,
+        "CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE": 100000,
+        "MAX_TRANSACTION_SIZE_LIMIT": 100000,
+        "CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX": 3914525,
+        "DIFFICULTY_CUT_V1": 60,
+        "DIFFICULTY_CUT_V2": 60,
+        "DIFFICULTY_CUT": 0,
+        "DIFFICULTY_LAG_V1": 15,
+        "DIFFICULTY_LAG_V2": 15,
+        "DIFFICULTY_LAG": 0,
+        "DIFFICULTY_WINDOW_V1": 2880,
+        "DIFFICULTY_WINDOW_V2": 2880,
+        "DIFFICULTY_WINDOW": 17,
+        "ZAWY_DIFFICULTY_V3": 1,
+        "ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION": 3,
+        "P2P_DEFAULT_PORT": 11897,
+        "RPC_DEFAULT_PORT": 11898,
+        "BYTECOIN_NETWORK": "b50c4a6c-cf52-5741-65f9-91a4b6c143e9",
+        "CRYPTONOTE_NAME": "TurtleCoin",
+        "DAEMON_NAME": "TurtleCoind",
+        "GENESIS_COINBASE_TX_HEX": "010a01ff000188f3b501029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210142694232c5b04151d9e4c27d31ec7a68ea568b19488cfcb422659a07a0e44dd5",
+        "CHECKPOINTS": "",
+        "MAX_BLOCK_SIZE_INITIAL": 100000
+    },
+    "extensions": [
+        "core/bytecoin.json",
+        "print-genesis-tx.json",
+        "genesis-block-reward.json",
+	      "blockchain-explorer.json",
+      	"enable-cors.json",
+      	"simplewallet-import-keys.json",
+      	"simplewallet-export-keys.json",
+        "bug-fixes.json"
+    ]
+}
