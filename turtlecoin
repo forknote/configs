@@ -5,11 +5,11 @@
     },
     "core": {
         "SEED_NODES": [
-            "104.236.227.176:11897",
-            "104.236.55.84:11897",
-      	    "163.172.147.52:11897",
-      	    "51.15.138.214:11897",
-      	    "51.15.137.77:11897"
+		"104.236.227.176:11897",
+		"104.236.55.84:11897",
+		"163.172.147.52:11897",
+		"51.15.138.214:11897",
+		"51.15.137.77:11897"
         ],
         "EMISSION_SPEED_FACTOR": 25,
         "DIFFICULTY_TARGET": 30,
@@ -33,6 +33,7 @@
         "DIFFICULTY_WINDOW": 17,
         "ZAWY_DIFFICULTY_V3": 1,
         "ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION": 3,
+        "ZAWY_DIFFICULTY_BLOCK_INDEX": 187000,
         "P2P_DEFAULT_PORT": 11897,
         "RPC_DEFAULT_PORT": 11898,
         "BYTECOIN_NETWORK": "b50c4a6c-cf52-5741-65f9-91a4b6c143e9",
@@ -46,10 +47,12 @@
         "core/bytecoin.json",
         "print-genesis-tx.json",
         "genesis-block-reward.json",
-	      "blockchain-explorer.json",
+        "blockchain-explorer.json",
       	"enable-cors.json",
       	"simplewallet-import-keys.json",
       	"simplewallet-export-keys.json",
-        "bug-fixes.json"
+        "bug-fixes.json",
+        "versionized-parameters.json",
+        "zawy-difficulty-algorithm.json"
     ]
 }
