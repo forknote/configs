@@ -1,11 +1,11 @@
 ## Introduction
 
-This repository is containing configuration files for active Forknote networks.
+This repository contains configuration files for active Forknote networks.
 
 
 ## How to start
 
-The easiest way to start a Forknote network is to see the configuration file of already existing coin and modify it.
+The easiest way to start a Forknote network is to see the configuration file of an already existing coin and modify it.
 
 You can also start from scratch and create a new configuration file by using a simple text editor or by using our [configuration wizard](http://forknote.net/create/#/).
 
