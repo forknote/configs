@@ -1,0 +1,47 @@
+{
+    "base_coin": {
+        "name": "bytecoin",
+        "git": "https://github.com/amjuarez/bytecoin.git"
+    },
+    "core": {
+        "SEED_NODES": [
+            "43.255.154.57:19876",
+	    "166.62.6.80:19876"
+        ],
+        "EMISSION_SPEED_FACTOR": 21,
+        "DIFFICULTY_TARGET": 80,
+        "CRYPTONOTE_DISPLAY_DECIMAL_POINT": 12,
+        "MONEY_SUPPLY": "18446744073709551615",
+        "GENESIS_BLOCK_REWARD": "184467440737095520",
+        "DEFAULT_DUST_THRESHOLD": 1000000,
+        "MINIMUM_FEE": 1000000,
+        "CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW": 15,
+        "CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE": 100000,
+        "MAX_TRANSACTION_SIZE_LIMIT": 100000,
+        "CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX": 73,
+        "DIFFICULTY_CUT_V1": 60,
+        "DIFFICULTY_CUT_V2": 60,
+        "DIFFICULTY_CUT": 0,
+        "DIFFICULTY_LAG_V1": 15,
+        "DIFFICULTY_LAG_V2": 15,
+        "DIFFICULTY_LAG": 0,
+        "DIFFICULTY_WINDOW_V1": 1080,
+        "DIFFICULTY_WINDOW_V2": 1080,
+        "DIFFICULTY_WINDOW": 17,
+        "ZAWY_DIFFICULTY_V3": 1,
+        "ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION": 3,
+        "P2P_DEFAULT_PORT": 19876,
+        "RPC_DEFAULT_PORT": 19877,
+        "BYTECOIN_NETWORK": "04e4effc-be74-271f-5b55-a64d5f8fbca7",
+        "CRYPTONOTE_NAME": "sapotacoin",
+        "DAEMON_NAME": "sapotacoind",
+        "GENESIS_COINBASE_TX_HEX": "010a01ff0001ffffffffffff01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101431017741b3a0c25c247d47af9a7d99391fc6f56a5f8124250963abde7bddaa7",
+        "CHECKPOINTS": "",
+        "MAX_BLOCK_SIZE_INITIAL": 100000
+    },
+    "extensions": [
+        "core/bytecoin.json",
+        "print-genesis-tx.json",
+        "genesis-block-reward.json"
+    ]
+}
